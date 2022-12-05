@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    background-color: rgba(235, 229, 229, 0.8);
+
+    &.active {
+        background-color: rgba(235, 229, 229, 1);
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 1rem 0;
+
+        @include breakpoint($tablet) {
+            padding: .5rem 0;
+        }
+
+    }
+}

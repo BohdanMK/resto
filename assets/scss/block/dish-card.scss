@@ -1,0 +1,34 @@
+.dish-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 219px;
+
+    &__head {
+        margin-bottom: 1.5rem;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__body {
+        flex: 1 1 auto;
+    }
+
+    &__description {
+        margin-bottom: 1rem;
+    }
+
+    &__info {
+        margin-bottom: 1rem;
+    }
+
+    &__price {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+}

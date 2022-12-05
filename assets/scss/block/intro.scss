@@ -1,0 +1,26 @@
+.intro {
+
+    background: $white url(../images/introbg.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    &__wrapper {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    &__sm-logo {
+        max-width: 740px;
+        text-align: center;
+    }
+
+    &__text {
+        margin-top: 20px;
+    }
+}

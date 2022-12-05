@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    >
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img src="assets/images/logohead.png" alt="">
+                </div>
+                    <nav id="navBar" class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a data-scroll="resto" class="nav__link" href="">Ресторан</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-scroll="menu" class="nav__link" href="">Меню</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-scroll="map" class="nav__link" href="">Адреса</a>
+                            </li>
+                            <li class="nav__item">
+                                <a data-scroll="footer" class="nav__link" href="">Новости</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <button  class="burger">
+                        <span></span>
+                    </button>
+
+            </div> <!--container-->
+        </div>
+    </header>
+
+    <!--intro-->
+    <div class="intro">
+        <div class="container">
+            <div class="intro__wrapper">
+                <div class="intro__logo">
+                    <img src="assets/images/intrologo.png" alt="">
+                </div>
+                <div class="intro__sm-logo">
+                    <img src="assets/images/forkangspoon.png" alt="">
+
+                    <div class="intro__text">
+                        <p>Ресторан может быть респектабельным или демократичным, все равно самое
+                            дорогое в нем — атмосфера, которая появляется из тонкого, почти мистического сочетания ингредиентов: место-идея-еда-обстановка-люди-любовь...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--daydish-->
+    <section class="day-dish wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+        <div class="container">
+            <div class="day-dish__wrapper">
+                <div class="day-dish__box">
+                    <h2 class="day-dish__title">Окрошка мясная</h2>
+                    <div class="day-dish__description">
+                        <p>Мелко нарезанные свежие овощи, залитые холодным квасом с добавлением мелко струганного мяса.</p>
+                    </div>
+                    <div class="day-dish__info">
+                        <div class="day-dish__price"><span>360, - &#8372;</span></div>
+
+                        <div class="day-dish__weight">
+                            <span>250г/250ккал</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Menu-->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="menu__wrapper">
+                <h2 class="menu__title">Меню</h2>
+                <div class="menu__sub-title">От нас невозможно уйти голодным. К вашим услугам лучший шеф-повар в городе.</div>
+            </div>
+            <div class="menu__box">
+                <button class="menu__box-head">
+                    <img class="menu__box-images" src="assets/images/menu-logo.png" alt="">
+                    <span class="menu__box-title">Горячие закуски</span>
+                </button>
+                <div class="menu__cataloge">
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish1.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сырные пятачки из собственной сыровани
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>В пряном масле с вялеными томатами и травами</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish3.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сыр из собственной сыроварни
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >50 г	/ 90 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>110</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish4.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сало трёх видов с хреном и горчицей
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>270</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                </div> <!--menu__cataloge-->
+            </div> <!--Menu__box-->
+            <div class="menu__box">
+                <button class="menu__box-head">
+                    <img class="menu__box-images" src="assets/images/icon-type.png" alt="">
+                    <span class="menu__box-title">Пивные закуски</span>
+                </button>
+                <div class="menu__cataloge">
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish1.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сырные пятачки из собственной сыровани
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>В пряном масле с вялеными томатами и травами</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish3.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сыр из собственной сыроварни
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >50 г	/ 90 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>110</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish4.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сало трёх видов с хреном и горчицей
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>270</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                </div> <!--menu__cataloge-->
+            </div> <!--Menu__box-->
+            <div class="menu__box">
+                <button class="menu__box-head">
+                    <img class="menu__box-images" src="assets/images/icon-type2.png" alt="">
+                    <span class="menu__box-title">Десерты</span>
+                </button>
+                <div class="menu__cataloge">
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish1.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сырные пятачки из собственной сыровани
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>В пряном масле с вялеными томатами и травами</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish3.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сыр из собственной сыроварни
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >50 г	/ 90 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>110</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish4.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сало трёх видов с хреном и горчицей
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>270</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                </div> <!--menu__cataloge-->
+            </div> <!--Menu__box-->
+            <div class="menu__box">
+                <button class="menu__box-head">
+                    <img class="menu__box-images" src="assets/images/icon-type3.png" alt="">
+                    <span class="menu__box-title">Гарниры</span>
+                </button>
+                <div class="menu__cataloge">
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish1.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сырные пятачки из собственной сыровани
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>В пряном масле с вялеными томатами и травами</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish3.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сыр из собственной сыроварни
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >50 г	/ 90 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>110</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish4.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сало трёх видов с хреном и горчицей
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>270</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                </div> <!--menu__cataloge-->
+            </div> <!--Menu__box-->
+            <div class="menu__box">
+                <button class="menu__box-head">
+                    <img class="menu__box-images" src="assets/images/icon-type4.png" alt="">
+                    <span class="menu__box-title">Напитки</span>
+                </button>
+                <div class="menu__cataloge">
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish1.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сырные пятачки из собственной сыровани
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>В пряном масле с вялеными томатами и травами</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish3.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сыр из собственной сыроварни
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >50 г	/ 90 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>110</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish4.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сало трёх видов с хреном и горчицей
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>270</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                </div> <!--menu__cataloge-->
+            </div> <!--Menu__box-->
+            <div class="menu__box">
+                <button class="menu__box-head">
+                    <img class="menu__box-images" src="assets/images/icon-type5.png" alt="">
+                    <span class="menu__box-title">Супы</span>
+                </button>
+                <div class="menu__cataloge">
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish1.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сырные пятачки из собственной сыровани
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>В пряном масле с вялеными томатами и травами</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish3.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сыр из собственной сыроварни
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >50 г	/ 90 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>110</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish4.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сало трёх видов с хреном и горчицей
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>270</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                </div> <!--menu__cataloge-->
+            </div> <!--Menu__box-->
+            <div class="menu__box">
+                <button class="menu__box-head">
+                    <img class="menu__box-images" src="assets/images/intro-type6.png" alt="">
+                    <span class="menu__box-title">Мясо</span>
+                </button>
+                <div class="menu__cataloge">
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish1.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сырные пятачки из собственной сыровани
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>В пряном масле с вялеными томатами и травами</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish3.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сыр из собственной сыроварни
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >50 г	/ 90 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>110</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish4.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сало трёх видов с хреном и горчицей
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>270</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                </div> <!--menu__cataloge-->
+            </div> <!--Menu__box-->
+            <div class="menu__box">
+                <button class="menu__box-head">
+                    <img class="menu__box-images" src="assets/images/intro-type7.png" alt="">
+                    <span class="menu__box-title">Салаты</span>
+                </button>
+                <div class="menu__cataloge">
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish2.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Тарелка свежих овощей с чесночно-творожным соусом
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сладкий перец,томаты, огурцы, зеленые перья лука, зелень, стебли сельдерея</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish1.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сырные пятачки из собственной сыровани
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>В пряном масле с вялеными томатами и травами</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>210</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish3.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сыр из собственной сыроварни
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Приготовленный по старинному кавказскому рецепту, подается на пергаменте со сладкой горчицей</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >50 г	/ 90 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>110</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+
+                    <div class="dish-card">
+                        <div class="dish-card__head">
+                            <img src="assets/images/dish4.jpg" alt="">
+                        </div>
+                        <div class="dish-card__body">
+                            <h4 class="dish-card__title">
+                                Сало трёх видов с хреном и горчицей
+                            </h4>
+                            <div class="dish-card__description">
+                                <p>Сало в острой перечной обсыпке, с чесноком и сало собственного копчения.</p>
+                            </div>
+                        </div>
+                        <div class="dish-card__footer">
+                            <div class="dish-card__info">
+                                <span class="dish-card__info-weight" >220 г	/ 150 ккал.
+                                </span>
+                            </div>
+                            <div class="dish-card__price">
+                                <span>270</span>,
+                                <span>- &#8372;</span>
+                            </div>
+                        </div>
+                    </div> <!--dish-card-->
+                </div> <!--menu__cataloge-->
+            </div> <!--Menu__box-->
+        </div> <!--container-->
+    </section> <!--Menu-->
+
+    <!--daydish-->
+    <section class="day-dish day-dish--second wow fadeInRight" data-wow-duration="1s">
+        <div class="container">
+            <div class="day-dish__wrapper">
+                <div class="day-dish__box day-dish__box--second">
+                    <h2 class="day-dish__title">классический стейк
+                        филе миньон</h2>
+                    <div class="day-dish__description">
+                        <p>Центральная часть нежнейшей, высокосортной говяжьей вырезки со свежими овощами в прикуску,  с пикантным кислосладким соусом и гарниром на выбор.</p>
+                    </div>
+                    <div class="day-dish__info">
+                        <div class="day-dish__price"><span>210, - &#8372;</span></div>
+
+                        <div class="day-dish__weight">
+                            <span>450г/250ккал</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Inter-->
+    <div class="interior swiper" id="resto">
+        <div class="interior__box swiper-wrapper">
+            <div class="interior__item swiper-slide">
+                <img class="interior__images" src="assets/images/introslid1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="interior__images" src="assets/images/introslid2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="interior__images" src="assets/images/introslid3.jpg" alt="">
+            </div>
+            <div class="interior__item swiper-slide">
+                <img class="interior__images" src="assets/images/introslid1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="interior__images" src="assets/images/introslid3.jpg" alt="">
+            </div>
+        </div>
+        <div class="interior__block"></div>
+        <div class="interior__btn swiper-button-prev">
+        </div>
+        <div class="interior__btn  swiper-button-next"></div>
+        <div class="interior__pagination swiper-pagination"></div>
+</div>
+
+
+    <!--Map-->
+    <section id="map" class="map wow fadeIn">
+        <div class="container">
+            <div class="map__wrapper">
+                <h2 class="map__title">рестораны</h2>
+
+                <div class="map__box">
+                    <div class="map__item">
+                        <a class="map__item-info" href="#">
+                            <h4 class="map__item-title">Честный стейк</h4>
+                            <address>
+                                Київ, Героїв пр.186
+                            </address>
+                            <span  class="map__item-tel" >тел. +3(80)95-45-34-021</span>
+
+                            <div class="map__item-time">
+                                <span class="map__item-time-head">Время работы:</span>
+                                <p>
+                                    <span>Пн. - Пят.  </span>
+                                    <span>11:00—23:00,</span>
+                                </p>
+                                <p><span>Сб.</span>
+                                <span>09:00—20:00</span></p>
+                            </div>
+                        </a>
+                    </div> <!--map__item-->
+                    <div class="map__item">
+                        <div class="map__item-info">
+                            <h4 class="map__item-title">Честный стейк</h4>
+                            <address>
+                                Київ, Героїв пр.186
+                            </address>
+                            <a class="map__item-tel" href="tel:+380954534021">тел. +3(80)95-45-34-021</a>
+
+                            <div class="map__item-time">
+                                <span class="map__item-time-head">Время работы:</span>
+                                <p>
+                                    <span>Пн. - Пят.  </span>
+                                    <span>11:00—23:00,</span>
+                                </p>
+                                <p><span>Сб.</span>
+                                <span>09:00—20:00</span></p>
+                            </div>
+                        </div>
+                    </div> <!--map__item-->
+                    <div class="map__item">
+                        <div class="map__item-info">
+                            <h4 class="map__item-title">Честный стейк</h4>
+                            <address>
+                                Київ, Героїв пр.186
+                            </address>
+                            <a class="map__item-tel" href="tel:+380954534021">тел. +3(80)95-45-34-021</a>
+
+                            <div class="map__item-time">
+                                <span class="map__item-time-head">Время работы:</span>
+                                <p>
+                                    <span>Пн. - Пят.  </span>
+                                    <span>11:00—23:00,</span>
+                                </p>
+                                <p><span>Сб.</span>
+                                <span>09:00—20:00</span></p>
+                            </div>
+                        </div>
+                    </div> <!--map__item-->
+                </div>
+            </div>
+        </div> <!--container-->
+    </section>
+
+    <!--footer-->
+    <section id="footer" class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__press-room">
+                    <h2 class="footer__title">прессрум</h2>
+                    <div class="footer__article">
+                        <time datetime="2015-03-19">19 мая,  2015</time>
+                        <p>Компания Leicht Kyiv, ресторанный холдинг Fresco Group и ресторан «Вилла Роза» дали старт новому совместному проекту.</p>
+                    </div>
+                    <div class="footer__article">
+                        <time datetime="2015-03-19">19 мая,  2015</time>
+                        <p>Компания Leicht Kyiv, ресторанный холдинг Fresco Group и ресторан «Вилла Роза» дали старт новому совместному проекту.</p>
+                    </div>
+                    <div class="footer__article">
+                        <time datetime="2015-03-19">19 мая,  2015</time>
+                        <p>Компания Leicht Kyiv, ресторанный холдинг Fresco Group и ресторан «Вилла Роза» дали старт новому совместному проекту.</p>
+                    </div>
+                    <div class="footer__article">
+                        <time datetime="2015-03-19">19 мая,  2015</time>
+                        <p>Компания Leicht Kyiv, ресторанный холдинг Fresco Group и ресторан «Вилла Роза» дали старт новому совместному проекту.</p>
+                    </div>
+                </div>
+
+                <div class="footer__social">
+                    <h4 class="footer__social-title">Мы в соцсетях</h4>
+
+                    <div class="social__wrapper">
+                        <div class="social__block">
+                            <a class="social__link" href="#">
+                                <img class="social__image" src="assets/images/social-facebook.png" alt="">
+                            </a>
+                            <a class="social__link social__link--next" href="#">
+                                <img class="social__image" src="assets/images/twiter.png" alt="">
+                            </a>
+                            <a class="social__link social__link--next" href="#">
+                                <img class="social__image" src="assets/images/google.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social__send-offers">
+                            <h5>
+                                Рассылка спецпрелложений
+                            </h5>
+                            <form class="social__form" action="/" method="post">
+                                <input type="text" placeholder="Эл. почта">
+                                <button>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--footer__wrapper-->
+        </div> <!--container-->
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+              <script>
+                new WOW().init();
+              </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

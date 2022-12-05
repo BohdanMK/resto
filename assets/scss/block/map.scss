@@ -1,0 +1,149 @@
+.map {
+
+    background: $black url(../images/kyiv-map.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    &__wrapper {
+        padding: 8rem 0;
+    }
+
+    &__title {
+        margin-bottom: 20rem;
+
+        color: $white;
+        font-family: "PT Sans";
+        font-size: 3.6rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+        text-transform: uppercase;
+
+        @include breakpoint($sm-mobile) {
+            font-size: 2.6rem;
+            text-align: center;
+        }
+    }
+
+    &__box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: .1rem ;
+
+        @include breakpoint($mobile) {
+            grid-template-columns: auto;
+            grid-row-gap: 1rem ;
+        }
+    }
+
+    &__item {
+        max-width: 34rem;
+        height: 100%;
+        padding: 2.5rem 5.5rem 2.5rem 3.5rem;
+
+        position: relative;
+
+        @include breakpoint($laptop) {
+            padding: 1.5rem 2.5rem 1.5rem 1.5rem;
+        }
+
+        @include breakpoint($tablet) {
+            padding: .5rem 1.5rem .5rem 1.5rem;
+        }
+
+        &::before {
+            content: "";
+            display: block;
+            height: 100%;
+            width: 100%;
+            border-left: .3rem solid #e93c3c;
+            border-right: .3rem solid #e93c3c;
+
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 2;
+
+            transition: all .2s linear;
+            transform: scaleY(0);
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            height: 100%;
+            width: 100%;
+            border-top: .3rem solid #e93c3c;
+            border-bottom: .3rem solid #e93c3c;
+
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 2;
+
+            transition: all .2s linear;
+            transform: scaleX(0);
+        }
+
+        &:hover::before {
+            transition: all .2s linear;
+            transform: scaleY(1);
+        }
+
+        &:hover::after {
+            transition: all .2s linear;
+            transform: scaleX(1);
+        }
+
+        &-info {
+            color: $white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        &-title {
+            margin-bottom: 1rem;
+
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        &-tel {
+            font-style: inherit;
+            color: $white;
+            text-decoration: none;
+        }
+
+        &-time {
+            &-head {
+                display: block;
+                margin: 1rem 0;
+
+                font-size: .8rem;
+                font-weight: 700;
+                color: $white;
+            }
+
+            & p {
+                display: flex;
+                justify-content: space-between;
+
+                margin: 0;
+                padding: 0;
+
+                @include breakpoint($mobile) {
+                    justify-content: normal;
+                    column-gap: 3rem;
+                }
+
+                & span {
+                    font-size: .9rem;
+                    font-weight: 400;
+                    color: $white;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,73 @@
+.footer {
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 9rem;
+
+        padding: 5.5rem 0 3rem 0;
+
+        @include breakpoint($L-laptop) {
+            grid-column-gap: 1rem;
+        }
+
+        @include breakpoint($tablet) {
+            display: block;
+        }
+    }
+
+    &__title {
+        margin-bottom: 3rem;
+
+        color: #000000;
+        font-size: 3.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__article {
+        display: flex;
+        column-gap: 3.3rem;
+        align-items:flex-start;
+
+        margin-bottom: 1rem;
+
+        @include breakpoint($tablet) {
+            margin-bottom: 2rem;
+            column-gap: 1.3rem;
+        }
+
+        @include breakpoint($mobile) {
+            flex-direction: column;
+            row-gap: 1rem;
+        }
+
+        & time {
+            font-size: .7rem;
+            opacity: .7;
+        }
+
+        & p {
+            max-width: 28rem;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+
+            @include breakpoint($laptop) {
+                max-width: 18rem;
+            }
+
+            @include breakpoint($tablet) {
+                max-width: 100%;
+            }
+        }
+    }
+
+    &__social-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 2.3rem;
+    }
+
+}

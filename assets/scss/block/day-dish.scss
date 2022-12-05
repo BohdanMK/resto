@@ -1,0 +1,140 @@
+.day-dish {
+    background-color: #1e222c;
+    background: url(../images/offesr.jpg) no-repeat center center;
+    background-size: cover;
+
+    &--second {
+        background-color: #1e222c;
+        background: url(../images/Slice_5.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    &__wrapper {
+        padding: 20rem 1rem 35rem 1rem;
+    }
+
+    &__box {
+        width: 100%;
+        height: 100%;
+        max-width: 715px;
+
+        padding: 0 3rem 1rem 2rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+
+
+        border: 5px solid #fff;
+        border-top: transparent;
+
+        position: relative;
+
+        @include breakpoint($tablet) {
+            padding: 0 2rem .5rem 1rem;
+        }
+
+        &--second {
+            margin-top: -11rem;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 5%;
+            height: 5px;
+            background-color: $white;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        &::before {
+            content: "";
+            display: block;
+            width: 10%;
+            height: 5px;
+            background-color: $white;
+
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    &__title {
+        width: 70%;
+        display: block;
+
+        margin-top: -2rem;
+
+        font-size: 3.1rem;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 1;
+        text-transform: uppercase;
+        color: $white;
+
+        @include breakpoint($tablet) {
+            font-size: 2.5rem;
+        }
+
+        @include breakpoint($sm-mobile) {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__description {
+
+        flex: 1 1 auto;
+
+        & p {
+            color: #ffffff;
+            font-family: "PT Sans";
+            font-size: 1.2rem;
+            font-weight: 400;
+
+            @include breakpoint($tablet) {
+                font-size: 1rem;
+            }
+
+            @include breakpoint($sm-mobile) {
+                font-size: .8rem;
+            }
+        }
+    }
+
+    &__info {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2rem;
+
+    }
+
+    &__price {
+
+    font-size: 3.7rem;
+    font-weight: 700;
+    color: $white;
+    line-height: 1.2rem;
+
+    @include breakpoint($tablet) {
+        font-size: 2.7rem;
+    }
+
+    @include breakpoint($sm-mobile) {
+        font-size: 1.7rem;
+    }
+
+    }
+
+    &__weight {
+        font-size: 1rem;
+        font-weight: 400;
+        color: $white;
+    }
+}
